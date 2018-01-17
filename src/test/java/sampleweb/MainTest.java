@@ -22,7 +22,7 @@ public class MainTest {
 			HttpURLConnection huc =  (HttpURLConnection)  u.openConnection(); 
 			huc.setRequestMethod("HEAD");
 			System.out.println(huc.getResponseCode());
-			assertTrue(huc.getResponseCode() == HttpURLConnection.HTTP_OK);			
+			assertTrue(huc.getResponseCode() == HttpURLConnection.HTTP_ACCEPTED);			
 		} catch (MalformedURLException e) {
 			fail(e.getMessage());
 		} catch (IOException e) {
