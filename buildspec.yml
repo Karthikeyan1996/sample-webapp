@@ -7,5 +7,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - /sampleweb.war
+    -  s3trackingpayoda/sampleweb.war
   discard-paths: yes
