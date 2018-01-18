@@ -7,5 +7,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/sampleweb.war
+    - /sampleweb.war
   discard-paths: yes
