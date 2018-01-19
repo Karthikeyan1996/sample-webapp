@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /sampleweb.war
+  - source: /target/sampleweb.war
     destination: /home/ec2-user/apache-tomcat-7.0.82/webapps
